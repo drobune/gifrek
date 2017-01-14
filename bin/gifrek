@@ -16,10 +16,8 @@ else
     D="--duration=10 /tmp/gifrek.tmp"
 fi
 
-# xrectsel from https://github.com/lolilolicon/xrectsel
 ARGUMENTS=$(xrectsel "--x=%x --y=%y --width=%w --height=%h") || exit -1
 
-onds. After that, byzanz will start
 for (( i=$DELAY; i>0; --i )) ; do
     echo $i
     sleep 1
