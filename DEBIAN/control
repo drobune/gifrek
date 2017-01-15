@@ -1,5 +1,5 @@
 Maintainer: drobune <s.yuichi227@gmail.com>
-Package: gyazo
+Package: gifrek
 Version: 0.1.0
 Architecture: all
 Depends:  dh-autoreconf, libx11-dev, byzanz
