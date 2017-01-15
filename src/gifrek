@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 # Delay before starting
 DELAY=1
@@ -28,5 +28,7 @@ byzanz-record --verbose --delay=0 ${ARGUMENTS} $D --cursor
 beep
 
 # Upload to gyazoecho Delaying $DELAY sec
-curl -XPOST https://upload.gyazo.com/upload.cgi -F "imagedata=@/tmp/gifrek.tmp" -A 'Gifrek/0.1 (+https://github.com/drobune/gifrek)'
+GYAZO_URL=curl -XPOST https://upload.gyazo.com/upload.cgi -F "imagedata=@/tmp/gifrek.tmp" -A 'Gifrek/0.1 (+https://github.com/drobune/gifrek)'
 
+echo ${GYAZO_URL} | xclip -sel clip
+xdg-open ${GYAZO_URL}
