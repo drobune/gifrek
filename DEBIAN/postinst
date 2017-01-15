@@ -1,0 +1,3 @@
+#!/bin/bash -e
+./setup.sh
+cp ./src/gifrek.sh /usr/local/bin/gifrek
