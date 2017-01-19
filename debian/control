@@ -1,0 +1,9 @@
+Source: gifrek
+Maintainer: drobune <s.yuichi227@gmail.com>
+Build-Depends: cdbs, debhelper
+Standards-Version: 0.1.2
+
+Package: gifrek
+Architecture: all
+Depends:  dh-autoreconf, libx11-dev, byzanz, xclip
+Description: Create GIF screencast and upload to gyazo.com on Linux
