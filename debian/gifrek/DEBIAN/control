@@ -1,0 +1,7 @@
+Package: gifrek
+Version: 0.1.2
+Architecture: all
+Maintainer: drobune <s.yuichi227@gmail.com>
+Installed-Size: 29
+Depends: dh-autoreconf, libx11-dev, byzanz, xclip
+Description: Create GIF screencast and upload to gyazo.com on Linux
