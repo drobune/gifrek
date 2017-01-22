@@ -10,7 +10,7 @@ beep() {
 
 # Duration and output file
 if [ $# -gt 0 ]; then
-    D="--duration=$@"
+    D="--duration=$@ /tmp/gifrek.tmp"
 else
     echo Default recording duration 10s to /tmp/gifrek.tmp
     D="--duration=10 /tmp/gifrek.tmp"
