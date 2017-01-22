@@ -10,7 +10,7 @@ beep() {
 
 # Duration and output file
 if [ $# -gt 0 ]; then
-    D="--duration=$@"
+    D="--duration=$@ /tmp/gifrek.tmp"
 else
     echo Default recording duration 10s to /tmp/gifrek.tmp
     D="--duration=10 /tmp/gifrek.tmp"
@@ -28,7 +28,7 @@ byzanz-record --verbose --delay=0 ${ARGUMENTS} $D --cursor
 beep
 
 # Upload to gyazoecho Delaying $DELAY sec
-GYAZO_URL=curl -XPOST https://upload.gyazo.com/upload.cgi -F "imagedata=@/tmp/gifrek.tmp" -A 'Gifrek/0.1 (+https://github.com/drobune/gifrek)'
+GYAZO_URL=$(curl -XPOST https://upload.gyazo.com/upload.cgi -F "imagedata=@/tmp/gifrek.tmp" -A 'Gifrek/0.1 (+https://github.com/drobune/gifrek)')
 
 echo ${GYAZO_URL} | xclip -sel clip
 xdg-open ${GYAZO_URL}
