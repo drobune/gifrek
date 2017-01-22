@@ -32,5 +32,3 @@ dh_gencontrol
 dh_md5sums
 dh_builddeb
 dh_builddeb
-dh_installdirs
-dh_installdirs
