@@ -3,15 +3,14 @@ Create GIF screencast and upload to gyazo.com on Linux.
 
 <img src="https://i.gyazo.com/81157564d5dc9085071630c612ef6f21.gif">
 
-## Install
 
-### install from deb file
+## Install from deb file
 
-...
+Download deb file from (release)[https://github.com/drobune/gifrek/releases]
 
-### build source
+## Build from source
 
-...
+`$  debuild -us -uc`
 
 ## How to use
 
