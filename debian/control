@@ -1,7 +1,7 @@
 Source: gifrek
 Maintainer: drobune <s.yuichi227@gmail.com>
 Build-Depends: cdbs, debhelper
-Standards-Version: 0.1.2
+Standards-Version: 0.1.3
 
 Package: gifrek
 Architecture: all
