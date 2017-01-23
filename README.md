@@ -3,6 +3,9 @@ Create GIF screencast and upload to gyazo.com on Linux.
 
 <img src="https://i.gyazo.com/81157564d5dc9085071630c612ef6f21.gif">
 
+# why?
+
+I want GyazoGIF for Linux.
 
 ## Install from deb file
 
@@ -16,7 +19,7 @@ Download deb file from (release)[https://github.com/drobune/gifrek/releases]
 
 - Run gifrek on shell
 
-`$ gifrek [Shooting time(like 1 or 5)]`
+`$ gifrek [Shooting time(sec)]`
 
 - Select rectatable by cursor
 
