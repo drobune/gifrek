@@ -3,7 +3,7 @@ Create GIF screencast and upload to gyazo.com on Linux.
 
 <img src="https://i.gyazo.com/81157564d5dc9085071630c612ef6f21.gif">
 
-# why?
+## why?
 
 I want GyazoGIF for Linux.
 
