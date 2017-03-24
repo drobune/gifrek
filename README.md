@@ -9,7 +9,7 @@ I want GyazoGIF for Linux.
 
 ## Install from deb file
 
-Download deb file from (release)[https://github.com/drobune/gifrek/releases]
+Download deb file from [release](https://github.com/drobune/gifrek/releases)
 
 ## Build from source
 
